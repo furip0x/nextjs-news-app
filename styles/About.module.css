@@ -11,6 +11,20 @@
   text-align: center;
 }
 
+.about h1 {
+  margin: 0 0 40px;
+}
+
+.about h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.about h3 {
+  font-size: 16px;
+  margin: 10px 0 20px;
+}
+
 .about img {
   width: 250px;
   border-radius: 100%;
