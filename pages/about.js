@@ -27,7 +27,7 @@ const About = ({ user }) => {
           <h1>{user.data.description}</h1>
           <div className={styles.about}>
             <h2>{user.data.name}</h2>
-            <h6>{user.data.position}</h6>
+            <h3>{user.data.position}</h3>
             <img src={user.data.image} />
           </div>
         </div>
