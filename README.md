@@ -1,1 +1,1 @@
-# nextjs-news-app
+# NextJS News App
