@@ -24,12 +24,11 @@ const About = ({ user }) => {
       <div className="page-container">
         <Toolbar />
         <div className={styles.main}>
-          <h1>NextJS News App</h1>
+          <h1>{user.data.description}</h1>
           <div className={styles.about}>
             <h2>{user.data.name}</h2>
             <h6>{user.data.position}</h6>
             <img src={user.data.image} />
-            <p>{user.data.description}</p>
           </div>
         </div>
       </div>
