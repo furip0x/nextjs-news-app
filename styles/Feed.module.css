@@ -1,0 +1,82 @@
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #f5f5f5;
+  padding: 50px 0;
+}
+
+.post {
+  width: 100%;
+  max-width: 550px;
+  background-color: #fff;
+  padding: 25px 25px 15px 25px;
+  margin-bottom: 25px;
+}
+
+.post img {
+  width: 100%;
+}
+
+.post h2 {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.post a {
+  display: inline-block;
+  font-size: 14px;
+  color: #0076d6;
+  background: none;
+  border: none;
+  padding: 10px 10px 10px 0;
+  cursor: pointer;
+}
+
+.post a:hover {
+  text-decoration: underline;
+}
+
+.paginator {
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 15px 20px #000;
+  padding: 15px;
+}
+
+.paginator div {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333;
+  margin: 0 25px;
+}
+
+.paginator button {
+  width: 120px;
+  font-weight: 600;
+  color: #333;
+  background: none;
+  border: 2px solid #333;
+  padding: 5px;
+}
+
+.paginator button:hover {
+  color: #fff;
+  background: #333;
+}
+
+.paginator button.active {
+  cursor: pointer;
+}
+
+.paginator button.disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+  filter: grayscale(100%);
+}
